@@ -1,4 +1,4 @@
-package ejerciciosud2;
+package expresiones;
 
 import java.util.Scanner;
 
