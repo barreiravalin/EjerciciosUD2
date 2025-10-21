@@ -25,6 +25,14 @@ public class Ejercicio11 {
         // Tercera alternativa (es la que pide el ejercicio)
         esBisiesto = (año % 4 == 0) &&
                      (año % 100 != 0 || año % 400 == 0);
+//        
+//        esBisiesto = false;
+//        if (año % 4 == 0)
+//            if (año % 100 != 0)
+//                esBisiesto = true;
+//            else if (año % 400 == 0)
+//                esBisiesto = true;
+        
         if (esBisiesto)
             System.out.println("Bisiesto");
         else
